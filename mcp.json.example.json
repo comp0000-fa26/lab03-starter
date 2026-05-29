@@ -5,19 +5,19 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem@2026.1.14",
-        "/Users/<you>/comp0000/lab03-workspace"
+        "location_of_your_lab03-starter"
       ]
     },
     "github": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github@2026.1.14"],
+      "args": ["-y", "@modelcontextprotocol/server-github@2025.4.8"],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_TOKEN}"
       }
     },
     "student-records": {
-      "command": "/location_of_your_Python/python.exe",
-      "args": ["/Users/<you>/comp0000/lab03-workspace/mcp_template/server.py"]
+      "command": "location_of_your_lab03-starter\\.venv\\Scripts\\python.exe",
+      "args": ["location_of_your_server.py"]
     }
   }
 }
