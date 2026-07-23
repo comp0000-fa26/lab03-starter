@@ -126,7 +126,7 @@ In `mcp_template\server.py`, students need to modify `CSV_PATH` and the `lookup_
 >**Note**: Never a hardcoded
 absolute path — the IDE may launch your server from any working directory.
 
-After modifying `server.py`, register the server in `mcp.json` using the following configuration:
+After modifying `server.py`, the MCP can use the server in `mcp.json` using the following configuration:
 ```bash
 "student-records": {
       "command": "location_of_your_lab03-starter\\.venv\\Scripts\\python.exe",
